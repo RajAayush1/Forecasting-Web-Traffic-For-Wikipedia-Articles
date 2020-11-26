@@ -14,18 +14,6 @@ Performed time-series analysis and forecasting on Google's web traffic dataset t
 - Developed `flask` app to render forecast plots generated using saved models
 - Practiced fetching data from `AWS S3` using boto3 and deployed the flask app on `AWS EC2` instance using nginx and gunicorn
 
-## Execution
-
-Use requirements.txt file to install the dependancies.
-
-  ```
-  pip install -r req.txt
-  ```
-  
-To run the application on local system, comment lines 19-23 in app.py and uncomment line 25. Enter the following command in terminal.
-  ```
-  python app.py
-  ```
 
 ## Time series analysis, anomaly detection and forecasting
 
